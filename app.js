@@ -1,17 +1,3 @@
-/**
- * Logger:
- *  log_level: info, warn, error, trace, debug
- *  log_score: {
- *      none: ??? 0
- *      error: 1
- *      warn: 2
- *      info: 3
- *      debug: 4
- *      trace: 5
- *  }
- *  appenders: console, file, queue, elastic...
- */
-
 import logger from './lib/logger/logger.js';
 
 import color from './color.js';
